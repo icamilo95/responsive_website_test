@@ -1,0 +1,230 @@
+body{
+   background-color: rgba(230,230,230,1);
+   color: #000305;
+   font-size: 87.5%;  Based on 14px font size 
+   font-family: Arial, 'Lucida Sans Unicode';
+   line-height: 1.5 ;
+   text-align: left;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:link, a:visited {
+   color: #CF5C3F;
+}
+
+a:hover, a:active {
+   background-color: white;
+   color: #CF5C3F;
+}
+
+.body {
+   margin: 0 auto;
+   width: 70%;
+   clear: both;
+}
+
+.mainHeader img {
+   width: 30%;
+   height: auto;
+   margin: 2% 0;
+}
+
+
+.mainHeader nav {
+   background-color: #666;
+   height: 40px;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+   list-style: none;
+   margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+   float: left;
+   display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+   color: #FFF;
+   display: inline-block;
+   padding: 10px 25px;
+   height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, .mainHeader .active a:link, .mainHeader nav .active a:visited {
+   background-color: #CF5C3F;
+   color: white;
+   text-shadow: none;
+} 
+
+.mainHeader nav ul li a {
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+}
+
+.mainContent {
+   line-height: 25px;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   /*overflow: hidden;*/
+}
+
+.content {
+   width: 70%;
+   float: left;
+}
+
+.topContent {
+   background-color: #FFF;
+    border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   padding: 3% 5%;
+   margin-top: 2%;
+}
+
+.bottomContent {
+   background-color: #FFF;
+    border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   padding: 3% 5%;
+   margin-top: 2%;
+}
+
+.post-info {
+   font-style: italic;
+   color: #999;
+   font-size: 90%;
+}
+
+.top-sidebar {
+   width: 21%;
+   float: left;
+   background-color: #FFF;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   padding: 2% 3%;
+   margin: 2% 0 2% 3%;
+}
+
+.middle-sidebar {
+   width: 21%;
+   float: left;
+   background-color: #FFF;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   margin-left: 3%;
+   padding: 2% 3%;
+   margin-bottom: 2%;
+}
+
+.bottom-sidebar {
+   width: 21%;
+   float: left;
+   background-color: #FFF;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   margin-left: 3%;
+   padding: 2% 3%;
+   margin-bottom: 2%;
+}
+
+.mainFooter {
+   height: 40px;
+   width: 100%;
+   float: left;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   margin-top: 2%;
+   background-color: #666;
+
+}
+
+.mainFooter p {
+   width: 92%;
+   margin: 10px auto;
+   color: white;
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 500px) 
+{
+   .body {
+      width: 90%;
+      font-size: 95%;
+   }
+
+   .mainHeader img {
+      width: 100%;
+   }
+
+   .mainHeader nav {
+      height: 160px;
+   }
+
+   .mainHeader nav ul {
+      padding-left: 0;
+   }
+
+   .mainHeader nav ul li {
+      width: 100%;
+      text-align: center;
+   }
+
+   .mainHeader nav a:link, .mainHeader nav a:visited {
+      display: block;
+      padding: 10px 25px;
+      height: 20px;
+   }
+
+   
+   .content {
+      width: 100%;
+      float: left;
+      margin-top: 2%;
+   }
+   
+   .post-info {
+      display: none;
+   }
+
+   .topContent {
+      background-color: #FFF;
+       border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      padding: 3% 5%;
+      margin-top: 2%;
+      margin-bottom: 4%;
+   }
+
+   .bottomContent {
+      margin-top: 2%;
+   }
+
+   .top-sidebar, .middle-sidebar, .bottom-sidebar {
+      width: 94%;
+      padding: 2% 3%;
+      margin: 2% 0 2% 0%;
+   }
+
+
+
+
+
+}
+
